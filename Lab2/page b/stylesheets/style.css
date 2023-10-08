@@ -1,0 +1,326 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma, Arial, sans-serif;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#section_text_2{
+    height: 100px;
+    background: #f3f3f3;
+}
+.alpha{
+    float: left;
+}
+.omega{
+    float: right;
+}
+.mobile_center{
+    margin-top: 30px;
+}
+.extra_small_padding{
+    height: 35px;
+}
+.right_text{
+    margin-top: 35px;
+
+}
+a.orange_bg{
+    text-decoration:none;
+    padding: 14px 28px 14px 28px;
+    border-radius: 5px;
+    background: #f77825;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+#section_header_1{
+    height: 80px;
+    background: #ffffff;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+li{
+    float: left;
+}
+a.nav1, li.propClone{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+li.propClone{
+    margin: 16px 0 0 0;
+}
+a.nav1:hover {
+    color: #f77825;
+}
+a.nav1 {
+    color: #818180;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10px 50px 10px 0;
+}
+div.icon-nav{
+    float: right;
+}
+i.fa-facebook-f , i.fa-instagram , i.fa-twitter{
+    font-size: 25px;
+    margin: 25px 8px 0 0;
+    color: #7f7f7f;
+}
+#section_slider{
+    background: #eeeeee;
+    padding-top: 80px;
+    height: 550px;
+}
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+}
+.nextprev{
+    text-align: center;
+}
+.prev {
+    margin: 200px 200px 200px -580px ;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px 18px 10px 18px;
+
+}
+/* Position the "next button" to the right */
+.next {
+    margin: 200px  200px 200px 530px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px 18px 10px 18px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+h3{
+    font-size: 30px;
+}
+.p-fade{
+    font-size: 20px;
+}
+.text {
+    color: #ffffff;
+    font-size: 15px;
+    position: absolute;
+    text-align: left;
+    margin: 325px 20px 20px 30px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.2s ease;
+}
+
+.active, .dot:hover {
+    background-color: white;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .3}
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+.dot-pic{
+    position: absolute;
+    margin:15px 0px 0px 1120px;
+}
+.one-third1{
+    display: inline-grid;
+}
+.part_st{
+    width: 260px;
+    height: 450px;
+    margin-top: 20px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+.logo_style{
+    border-radius: 50%;
+    height: 260px;
+}
+.editContent1{
+    color: #170201;
+    font-size: 25px;
+    font-weight: bold;
+}
+.editContent2{
+    color: #aaadbb;
+    font-size: 16px;
+}
+.text_gym_style{
+    margin: 20px 0 30px 0;
+}
+a.pix_text{
+    text-decoration:none;
+    padding: 14px 28px 14px 28px;
+    border-radius: 5px;
+    background: #f77825;
+    color: white;
+    font-size: 14px;
+}
+#section_gym_4{
+    padding-top: 40px;
+    height: 480px;
+}
+#section_intro_title{
+    height: 500px;
+    background: #f3f3f3;
+}
+.column6{
+    margin: 20px 20px 40px 20px;
+    border: 2px solid #dddddd;
+    width: 350px;
+    height: 430px;
+    display: inline-grid;
+    background: #ffffff;
+}
+.pix_builder_bg{
+    text-align: center;
+
+}
+p.editContent9{
+    font-size: 17px;
+    margin-top: 8px;
+    color: #a7a5b5;
+}
+p.blue_text{
+    font-size: 50px;
+    margin-top: 20px;
+    color: #2dc0e8;
+}
+p.margin_bottom_10{
+    font-size: 50px;
+    margin-top: 20px;
+    color: #f77c2b;
+}
+p.light_gray{
+    font-size: 20px;
+    margin-top: -30px;
+    color: #999999;
+}
+a.active_bg_open{
+    text-decoration:none;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    background: #2dc0e8;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+a.active_bg_open1{
+    text-decoration:none;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    background: #f77825;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+#section_party_3{
+    height: 550px;
+    border: 1px solid black;
+    background: #191919;
+}
+.text_input{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+    height: 420px;
+    width: 420px;
+    background: #151515;
+    border: 1px solid #191919;
+}
+p.pix_text99{
+    margin-top: 50px;
+    font-size: 25px;
+    color: #ffffff;
+}
+p.subtext_style{
+    color: #6b6d6f;
+    font-size: 17px;
+}
+input.pix_text{
+    padding: 16px 180px 16px 16px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#submit_btn_15{
+    padding: 16px 68px 16px 68px;
+    color: white;
+    background: #2474e5;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#section_party_4{
+    height: 100px;
+    background: #151515;
+}
+.socbuttons{
+    display: flex;
+}
+.seven{
+    margin-top: 40px;
+}
+.nine{
+    margin-top: 25px;
+}
+.icon-nav11{
+    margin-top: -10px;
+    margin-left: 20px;
+}
+.pixfort_st{
+    color: #1c79ba;
+    font-weight: bold;
+}
+.rights_st{
+    font-size: 17px;
+    color: #9ea3a7;
+}
+.pix_text11{
+    font-size: 17px;
+    color: #9ea3a7;
+}

@@ -9,15 +9,22 @@ body {
     display: flex;
     align-items: center;
 }
-
+div.backgroupform{
+    background: url("9232819ca920640224028dce76f11a7d.jpg");
+    width: 1000px;
+    height: 800px;
+}
 form#form-contact {
-    border: 2px solid #e6e6e6;
-    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 10px solid white;
+    border-radius: 20px;
     margin-top: 40px;
     padding: 30px;
-    outline: 10px solid #e6e6e6;
     width: 500px;
-    height: 600px;
+    height: 650px;
+    text-align: center;
+    background: white;
 }
 
 p.title-form {
@@ -25,45 +32,25 @@ p.title-form {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    color: #30302d;
-}
-
-.alpha {
-    float: left;
-}
-
-.omega {
-    float: right;
+    color: #481e4f;
+    margin-bottom: 60px;
 }
 
 input {
-    border-radius: 0 0 10px 10px;
     border: none;
-    background: #f7f7f7;
+    box-shadow: 0 5px 5px 5px #f3f3f3;
+    border-radius: 30px;
+    margin-bottom: 10px;
 }
-
-.form-fullname, .form-messenge, .form-phone, .form-email, .form-services {
-    border-radius: 10px;
-    background-color: #f7f7f7;
-    border: 1px solid #f2f2f2;
-    margin-top: 20px;
-}
-
-.form-fullname input, .form-services input, .form-messenge input {
-    padding: 10px 309px 15px 10px;
-}
-
-.form-email input, .form-phone input {
-    padding: 10px 60px 15px 10px;
-}
-
-label {
-    margin-left: 10px;
-    font-size: 12px;
+::placeholder{
+    color: #64466f;
     font-weight: bold;
-    color: #8f8f8b;
+    font-size: 14px;
 }
 
+.form-fullname input, .form-messenge input {
+    padding: 20px 100px 20px 20px;
+}
 .fill-wapper {
     margin-top: 10px;
 }
@@ -73,18 +60,42 @@ label {
 }
 
 div.button {
-    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
     text-align: center;
-    padding: 15px;
-    width: 460px;
+    padding: 20px;
+    width: 130px;
     height: 10px;
-    border: 1px solid #333333;
     border-radius: 40px;
-    background-color: #333333;
+    background-color: #bd59d7;
+    box-shadow: 0px 10px 10px 10px #edd6f5;
 }
 
 p.content-button {
     margin-top: -5px;
     color: white;
     font-weight: bold;
+}
+p.content-or{
+    margin-top: 70px;
+    text-align: center;
+    color: #d1d1d1;
+}
+div.icon-inpiniti{
+    text-align: center;
+    margin-top: 20px;
+}
+div.icon-inpiniti a img{
+    background: #f5f4f4;
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid #f5f4f4;
+    margin-left: 10px;
+}
+p.content-signup{
+    color: #b1a4b3;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 100px;
 }

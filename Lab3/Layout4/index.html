@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+<form action="" id="form-contact">
+    <p class="title-form">Account</p>
+    <div class="inputWithIcon">
+        <input type="text" placeholder="|   Full Name">
+        <i class="fa-solid fa-user" aria-hidden="true"></i>
+    </div>
+    <div class="inputWithIcon">
+        <input type="text" placeholder="|   Email Adress">
+        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+    </div>
+    <div class="inputWithIcon">
+        <input type="text" placeholder="|   Password">
+        <i class="fa-solid fa-key" aria-hidden="true"></i>
+    </div>
+    <div class="input-email-phone form-email_phone">
+        <div class="input form-email alpha">
+            <div class="fill-wapper">
+                <label>Date of Birth</label>
+                <br>
+                <input type="dob" name="day" placeholder="DD">
+                <input type="dob" name="month" placeholder="MM">
+                <input type="dob" name="year" placeholder="YY">
+            </div>
+        </div>
+        <div class="input form-phone omega">
+            <div class="fill-wapper">
+                <label>Gender</label>
+                <br>
+                <input type="gender" name="male" placeholder="Male">
+                <input type="gender" name="female" placeholder="Female">
+            </div>
+        </div>
+    </div>
+    <p class="title-payment">Payment Details</p>
+    <div class="button-payment credit">
+        <div class="buttonicon">
+            <i class="fa-brands fa-cc-visa"><span>Credit Card</span></i>
+        </div>
+    </div>
+    <div class="button-payment paypal">
+        <div class="buttonicon">
+            <i class="fa-brands fa-cc-paypal" aria-hidden="true"><span>Paypal</span></i>
+        </div>
+    </div>
+    <div class="inputWithIcon">
+        <input type="text" placeholder="|   Card Number">
+        <i class="fa-regular fa-credit-card" aria-hidden="true"></i>
+    </div>
+    <div class="inputWithIcon">
+        <input type="CVC" placeholder="|   Card CVC">
+        <i class="fa-solid fa-user" aria-hidden="true"></i>
+    </div>
+</form>
+</body>
+</html>
